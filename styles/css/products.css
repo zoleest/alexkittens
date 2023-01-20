@@ -90,7 +90,7 @@ main {
 /*Pets*/
 /* Products*/
 #products-container {
-  background-image: url("/styles/images/bg/products.jpg");
+  background-image: url("../images/bg/products.jpg");
 }
 #products-container h1, #products-container h2 {
   text-align: center;

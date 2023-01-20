@@ -83,7 +83,7 @@ main #about-container {
   }
 }
 main #about-container {
-  background: url("/styles/images/bg/about.jpg");
+  background: url("../images/bg/about.jpg");
   color: black;
   font-size: large;
 }

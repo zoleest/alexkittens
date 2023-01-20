@@ -83,7 +83,7 @@ main #index-container {
   }
 }
 main #index-container {
-  background-image: url("/styles/images/bg/index.webp");
+  background-image: url("../images/bg/index.webp");
 }
 main #welcome-text {
   text-align: center;

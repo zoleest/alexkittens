@@ -4,7 +4,7 @@ main {
 
   #index-container {
     @extend %container;
-    background-image: url("/styles/images/bg/index.webp");
+    background-image: url("../images/bg/index.webp");
   }
 
   #welcome-text {

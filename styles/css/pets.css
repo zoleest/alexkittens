@@ -112,7 +112,7 @@ h1 {
 }
 
 main #pets-container {
-  background-image: url("/styles/images/bg/pets.webp");
+  background-image: url("../images/bg/pets.webp");
 }
 main #pets-container #tita {
   padding: 1rem;

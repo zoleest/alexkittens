@@ -4,7 +4,7 @@ main {
 
   #about-container {
     @extend %container;
-    background: url("/styles/images/bg/about.jpg");
+    background: url("../images/bg/about.jpg");
    color: $about-text-color;
     font-size: $about-text-size;
 

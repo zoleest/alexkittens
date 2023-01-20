@@ -10,7 +10,7 @@ main {
 
   #pets-container {
     @extend %container;
-    background-image: url("/styles/images/bg/pets.webp");
+    background-image: url("../images/bg/pets.webp");
 
     #tita {
       @include pets-tile(linear-gradient(to left, $pets-tile-bg-start, $pets-tile-bg-end), left);
