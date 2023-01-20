@@ -55,7 +55,7 @@
 
     background-color: $background-color;
     text-align: center;
-    width: calc($max-product-row-size/$products-per-row);
+    width: $max-product-row-size;
     display: inline-block;
     padding: $products-tile-padding;
 
@@ -67,6 +67,14 @@
   button{
     font-size: large;
   }
+
+
+  @media (min-width: $breakpoint-md) {
+
+    width: calc($max-product-row-size/$products-per-row);
+  }
+
+
 
 
 
