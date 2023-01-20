@@ -1,0 +1,111 @@
+/*Breakpoints*/
+/*Navbar*/
+/*Content*/
+/*index*/
+/*About*/
+/*Pets*/
+/* Products*/
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+}
+
+main #index-container {
+  width: 100%;
+  min-height: 100%;
+  background-color: red;
+  padding: 3rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+#navbar {
+  background-color: #fff;
+  padding: 0.5rem;
+  color: #111;
+}
+#navbar a {
+  color: #111;
+  text-decoration: none;
+}
+#navbar #logo {
+  display: inline-block;
+  max-width: 30%;
+}
+#navbar #menu-toggle {
+  display: inline-block;
+  float: right;
+}
+#navbar #menu {
+  height: 100%;
+  display: block;
+}
+#navbar #menu .hidden {
+  display: none;
+}
+#navbar #menu #menu-items a {
+  display: block;
+  padding: 0.55rem;
+  font-size: 1.25rem;
+}
+#navbar #menu .active {
+  color: #bb7898;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbar #menu-toggle {
+    display: none;
+  }
+  #navbar #menu {
+    display: inline-block;
+  }
+  #navbar #menu #menu-items {
+    display: block;
+  }
+  #navbar #menu #menu-items a {
+    display: inline-block;
+  }
+}
+main #index-container {
+  background-image: url("/styles/images/bg/index.webp");
+}
+main #welcome-text {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1rem;
+}
+main #welcome-text img {
+  max-width: 30%;
+}
+main #welcome-text .social {
+  max-width: 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+@media (min-width: 768px) {
+  main #welcome-text img {
+    max-width: 30%;
+  }
+  main #welcome-text .social {
+    max-width: 10%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,119 @@
+/*Breakpoints*/
+/*Navbar*/
+/*Content*/
+/*index*/
+/*About*/
+/*Pets*/
+/* Products*/
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+}
+
+main #about-container {
+  width: 100%;
+  min-height: 100%;
+  background-color: red;
+  padding: 3rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+#navbar {
+  background-color: #fff;
+  padding: 0.5rem;
+  color: #111;
+}
+#navbar a {
+  color: #111;
+  text-decoration: none;
+}
+#navbar #logo {
+  display: inline-block;
+  max-width: 30%;
+}
+#navbar #menu-toggle {
+  display: inline-block;
+  float: right;
+}
+#navbar #menu {
+  height: 100%;
+  display: block;
+}
+#navbar #menu .hidden {
+  display: none;
+}
+#navbar #menu #menu-items a {
+  display: block;
+  padding: 0.55rem;
+  font-size: 1.25rem;
+}
+#navbar #menu .active {
+  color: #bb7898;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navbar #menu-toggle {
+    display: none;
+  }
+  #navbar #menu {
+    display: inline-block;
+  }
+  #navbar #menu #menu-items {
+    display: block;
+  }
+  #navbar #menu #menu-items a {
+    display: inline-block;
+  }
+}
+main #about-container {
+  background: url("/styles/images/bg/about.jpg");
+  color: black;
+  font-size: large;
+}
+main #about-container .op-bg {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+}
+main #about-container h1, main #about-container h2 {
+  color: #902453;
+  font-size: XX-large;
+}
+main #about-container div {
+  width: 100%;
+  display: inline-block;
+}
+main #about-container div img {
+  width: 100%;
+}
+main #about-container #about-text {
+  vertical-align: top;
+}
+
+@media (min-width: 768px) {
+  main #about-container div {
+    width: 50%;
+  }
+  main #about-container #about-text {
+    padding-left: 2rem;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

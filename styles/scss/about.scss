@@ -1,0 +1,68 @@
+@import 'themes';
+
+main {
+
+  #about-container {
+    @extend %container;
+    background: url("/styles/images/bg/about.jpg");
+   color: $about-text-color;
+    font-size: $about-text-size;
+
+    .op-bg{
+      width: 100%;
+      background-color: $about-op-background;
+      padding: $about-op-background-padding;
+    }
+
+    h1, h2{
+      color: $about-heading-color;
+      font-size: $about-text-h1-size;
+    }
+
+    div {
+      width: 100%;
+      display: inline-block;
+
+      img {
+
+        width: 100%
+      }
+
+    }
+
+    #about-text{
+
+      vertical-align:top;
+    }
+
+  }
+
+
+}
+
+@media (min-width: $breakpoint-md) {
+
+  main {
+
+
+    #about-container {
+
+
+      div {
+        width: 50%;
+      }
+
+     #about-text{
+        padding-left: $about-text-padding;
+      }
+
+
+
+    }
+
+
+  }
+}
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex's Kittens</title>
+    <link rel="stylesheet" href="styles/css/pets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<nav>
+    <div id="navbar">
+        <img src="./styles/images/logo.png" alt="logo" title="logo" id="logo">
+        <a class="icon" onclick="toggleMenu();" id="menu-toggle">
+            <i class="fa fa-bars "></i>
+        </a>
+        <div id="menu">
+
+            <div id="menu-items" class="hidden">
+                <a href="index.html">Kezdőlap</a>
+                <a href="about.html">Rólunk</a>
+                <a href="pets.html" class="active">Kedvenceink</a>
+                <a href="products.html">Termékeink</a>
+                <a href="contact.html">Kapcsolat</a>
+
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <div id="pets-container">
+        <h1>Kedvenceink</h1>
+
+            <div id="tita">
+                <h2>Tita</h2>
+                <div class="pet-side" class="image-wrap">
+                    <img src="styles/images/tita.jpg" title="Tita" alt="Tita"></div>
+                <div class="pet-side-desc">
+                    <strong>Tita</strong> egy nagyon aranyos cicus, bundáját fehér és cirmos textúra keveréke színezi. Nagyon szelíd, kedves, barátságos cica. Szobatiszta.<br>
+                    <strong>Kedvenc ételei:</strong>
+                    <ul>
+                        <li>Grillcsirke</li>
+
+                        <li>Tonhal</li>
+
+                        <li>Bárányos macskatáp</li>
+
+                        <li>Whiskas (nem fizetett hirdetés)</li>
+                    </ul>
+
+                  </div>
+            </div>
+            <div id="szalonna">
+                <h2>Szalonna</h2>
+                <div class="pet-side-desc" >
+                    <strong>Szalonna</strong> egy igazán belevaló cica, ha játékról van szó, ő mindid benne van. Pörgős, szeretetteljes, aktív cicus, Szobatiszta.<br>
+                    <strong>Kedvenc ételei:</strong>
+                    <ul>
+                        <li>Májpástétom</li>
+
+                        <li>Tej (laktózmentes!)</li>
+
+                        <li>Egeres macskatáp a Tescoból</li>
+
+                        <li>Whiskas (talán mégis fizetett hirdetés)</li>
+                    </ul>
+                    </div>
+                   <div class="pet-side" class="image-wrap">
+                    <img src="styles/images/szalonna.jpg" title="Szalonna" alt="Szalonna"></div>
+
+            </div>
+            <div id="other">
+                <h2>Egyéb kedvenceink</h2>
+                <div id="other-pets-container">
+                    <div class="other-pet-tile">
+                        <img src="styles/images/kugya.jpg" alt="Hülye kutya" title="Hülye kutya">
+                        <h2>"Hülye kutya"</h2>
+                    </div>
+                    <div class="other-pet-tile">
+                    <img src="styles/images/szarvas.jpg" alt="Hülye kutya" title="Hülye kutya">
+                    <h2>"Giccses szarvas"</h2>
+                </div>
+                    <div class="other-pet-tile">
+                        <img src="styles/images/fácán.jpg" alt="Hülye kutya" title="Hülye kutya">
+                        <h2>"Arany fácán"</h2>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+</main>
+<script src="scripts/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex's Kittens</title>
+    <link rel="stylesheet" href="styles/css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <img src="./styles/images/logo.png" alt="logo" title="logo" id="logo">
+            <a class="icon" onclick="toggleMenu();" id="menu-toggle">
+                <i class="fa fa-bars "></i>
+            </a>
+            <div id="menu">
+
+                <div id="menu-items" class="hidden">
+                    <a href="index.html">Kezdőlap</a>
+                    <a href="about.html" class="active">Rólunk</a>
+                    <a href="pets.html">Kedvenceink</a>
+                    <a href="products.html">Termékeink</a>
+                    <a href="contact.html">Kapcsolat</a>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="about-container">
+            <div class="op-bg">
+            <div id="about-image">
+                            <img src="styles/images/kakashi.jpg" title="Kakashi Uchiha és egy kiscica" alt="Kakashi Uchiha és egy kiscica">
+            </div><div id="about-text">
+                <h1>Rólunk</h1>
+                <p>Az Alex's Kittens állatmenhelyet és webáruházat 2023-ban alapították a Webler Junior Frontend/Fullstack fejlesztő tanfolyam hallgatói</p>
+
+                <p>Mivel minta értékű példát láttunk a kiscicák és a nemkiscicák (illetve Tristana) szeretetéről, így úgy gondoltuk, hogy létrehozzuk ezt a nemes célt, amelyet remélhetőleg maga Alex is nagy örömmel fog támogatni.</p>
+
+                <p>Igazából erről amúgy senki nem lett megkérdezve, és nem is tudnak róla, hogy én a nevükben emberkedem, de mégsem maradhatott egy Lorem120 a szöveg helyén. Akkor pont a lényeg veszne el...</p>
+
+                <h2>Víziónk:</h2>
+                <p>Minden kisállat otthont és szeretetet érdemel. Eme nemes kezdeményezés minden momentumával, legyen az örökbefogadás, vagy termékek vásárlása, a menhelyen élő kisállatok számára biztosíthatsz támogatást, mellyel közvetetten is, de hozzájárulsz a későbbi boldog életük eléréséhez is akár! (Reméljük...)</p>
+
+                <h2>Küldetésünk:</h2>
+                <p>Célkitűzésünk elérni, hogy mostantól minden jelszó (a kis és nagybetűk, számok, írásjelek mellett természetesen) kötelezően tartalmazza a Kiscica szót, vagy legalább egy macskanevet.</p>
+            </div>
+          </div>
+        </div>
+    </main>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

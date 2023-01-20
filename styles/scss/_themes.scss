@@ -1,0 +1,125 @@
+@import 'variables';
+
+body, html {
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main{
+  height: 100%;
+}
+
+%container{
+  width: 100%;
+  min-height: 100%;
+  background-color: red;
+  padding: $container-padding;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+%other-pets{
+  width: 100%;
+  padding: $pets-tile-padding-margin;
+  background-color: $half-white;
+
+  img{
+    width: 90%;
+  }
+
+  h2{
+    background: none;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    width: $other-pets-tile-width;
+  }
+
+
+
+}
+
+#navbar {
+
+  background-color: $navbar-background-color;
+  padding: $navbar-padding;
+  color: $navbar-color;
+
+  a{
+    color: $navbar-color;
+    text-decoration: none;
+  }
+
+  #logo {
+    display: inline-block;
+    max-width: $logo-width;
+  }
+
+  #menu-toggle {display: inline-block;
+    float: right;}
+
+  #menu {
+
+    height: 100%;
+    display: block;
+
+
+
+    .hidden{
+      display: none;
+    }
+
+    #menu-items a {
+      display: block;
+      padding: $menu-items-padding;
+      font-size: $menu-items-font-size;
+
+    }
+
+    .active{
+    color:  $acitve-color;
+    }
+
+
+  }
+
+
+}
+
+
+@media (min-width: $breakpoint-md) {
+
+  #navbar {
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #menu-toggle {
+      display: none;
+    }
+
+    #menu {
+      display: inline-block;
+
+      #menu-items{
+        display: block;
+      }
+
+      #menu-items a {
+        display: inline-block;
+
+      }
+    }
+  }
+}
+

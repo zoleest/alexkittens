@@ -1,0 +1,69 @@
+@import 'themes';
+
+main {
+
+  #index-container {
+    @extend %container;
+    background-image: url("/styles/images/bg/index.webp");
+  }
+
+  #welcome-text {
+    text-align: center;
+    background-color: $welcome-text-background-color;
+    padding: $welcome-text-padding;
+
+    img {
+      max-width: $welcome-text-machine-max-size-lg;
+    }
+
+    .social {
+      max-width: $social-width;
+      margin-left: $social-margin;
+      margin-right: $social-margin;
+    }
+  }
+
+}
+
+@media (min-width: $breakpoint-md) {
+
+  main {
+
+    #welcome-text {
+
+      img {
+        max-width: $welcome-text-machine-max-size-lg;
+      }
+
+      .social {
+        max-width: $social-width-lg;
+
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

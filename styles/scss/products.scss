@@ -1,0 +1,32 @@
+@import 'themes';
+@import 'mixin';
+
+#products-container {
+  @extend %container;
+  background-image: url("/styles/images/bg/products.jpg");
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .products-header{
+    background-color: $products-header-color;
+    padding: $products-header-padding;
+  }
+
+  .products-body{
+    background-color: $products-body-color;
+    text-align: center;
+    padding: $products-body-padding;
+
+    .products-tile{
+      @include product-tile-mixin(rgba(0,0,0,0.1));
+    }
+    .products-tile:hover{
+      @include product-tile-mixin(rgba(0,0,0,0.3));
+    }
+
+  }
+
+}
+

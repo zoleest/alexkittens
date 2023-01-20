@@ -1,0 +1,74 @@
+@import 'variables';
+
+@mixin pets-tile($background-color: white, $text-align: center) {
+
+  padding: $pets-tile-padding-margin;
+  background-image: $background-color;
+  margin-top: $pets-tile-padding-margin;
+  font-size: 0;
+
+  div {
+    width: 100%;
+    display: inline-block;
+    text-align: $text-align;
+    vertical-align: middle;
+    padding: $pets-tile-padding-margin;
+
+    font-size: medium;
+    img {
+
+      width: 100%
+    }
+
+  }
+
+
+  h2{
+    text-align: center;
+    font-size: $pets-tile-h2-size;
+    background-color: $pets-tile-h2-bg-color;
+
+    color: $pets-tile-h2-color;
+  }
+
+
+  @media (min-width: $breakpoint-md) {
+
+      div {
+        width: $pets-avatar-width;
+           }
+
+      .pet-side-desc{
+        width:  calc(100% - $pets-avatar-width) ;
+      }
+
+
+    }
+
+
+}
+
+
+@mixin product-tile-mixin($background-color: rgba(0,0,0, 0.1)){
+
+
+
+    background-color: $background-color;
+    text-align: center;
+    width: calc($max-product-row-size/$products-per-row);
+    display: inline-block;
+    padding: $products-tile-padding;
+
+    img{
+      width: $products-tile-image-width;
+
+    }
+
+  button{
+    font-size: large;
+  }
+
+
+
+}
+

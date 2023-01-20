@@ -1,0 +1,57 @@
+
+/*Breakpoints*/
+
+$breakpoint-md : 768px;
+
+/*Navbar*/
+$logo-width: 30%;
+$navbar-background-color: #fff;
+$navbar-padding: 0.5rem;
+$navbar-color: #111;
+$menu-items-padding: 0.55rem;
+$menu-items-font-size: 1.25rem;
+$acitve-color: #bb7898;
+
+/*Content*/
+$container-padding: 3rem;
+    /*index*/
+    $welcome-text-padding: 1rem;
+    $welcome-text-background-color: rgba(255,255,255, 0.75);
+    $welcome-text-machine-max-size: 90%;
+    $welcome-text-machine-max-size-lg: 30%;
+    $social-width: 25%;
+    $social-width-lg: 10%;
+    $social-margin: 1%;
+    /*About*/
+    $about-text-color: black;
+    $about-text-padding:  2rem;
+    $about-op-background: rgba(255,255,255,0.90);
+    $about-op-background-padding: 2rem;
+    $about-heading-color: #902453;
+    $about-text-size: large;
+    $about-text-h1-size: XX-large;
+    /*Pets*/
+
+    $pets-tile-h1-bg-color: #eee;
+    $pets-tile-h2-size: xx-large;
+    $pets-tile-h2-color: black;
+    $pets-tile-h2-bg-color: #eee;
+    $pets-tile-padding-margin: 1rem;
+    $pets-tile-bg-start: grey;
+    $pets-tile-bg-end: rgba(255,255,255, 0.8);
+    $pets-avatar-width: 25%;
+    $other-pets-container-width: 75%;
+    $half-white: rgba(255,255,255,0.50);
+    $other-pets-tile-width: 25%;
+
+    /* Products*/
+    $products-header-color: #eee;
+    $products-header-padding: 1rem;
+    $products-tile-padding: 1.5rem;
+    $products-body-color: rgba(255,255,255,0.85);
+    $products-body-padding: 1rem;
+    $products-per-row: 3;
+    $max-product-row-size: 80%;
+    $products-tile-image-width: 75%;
+
+

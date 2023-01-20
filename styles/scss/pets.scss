@@ -1,0 +1,59 @@
+@import 'themes';
+@import 'mixin';
+
+h1 {
+  text-align: center;
+  background-color: $pets-tile-h1-bg-color;
+}
+
+main {
+
+  #pets-container {
+    @extend %container;
+    background-image: url("/styles/images/bg/pets.webp");
+
+    #tita {
+      @include pets-tile(linear-gradient(to left, $pets-tile-bg-start, $pets-tile-bg-end), left);
+    }
+
+    #szalonna {
+      @include pets-tile(linear-gradient(to right, $pets-tile-bg-start, $pets-tile-bg-end), left);
+
+
+    }
+
+    #other {
+      @include pets-tile(linear-gradient(to left, grey, $pets-tile-bg-end), center);
+
+      .other-pet-tile {
+        @extend %other-pets;
+
+
+      }
+    }
+
+
+
+  }
+
+
+}
+
+@media (min-width: $breakpoint-md) {
+
+  main {
+    #pets-container {
+
+      #other {
+        #other-pets-container {
+          width: 100%;
+        }
+      }
+
+
+    }
+
+
+  }
+
+}
